@@ -3,7 +3,7 @@ import './navbar.css'
 const navbar = () => {
   return (
     <div className='navbar'>
-      
+      <img src={AuthenticatorAssertionResponse.logo} alt="" className="logo" />
     </div>
   )
 }
