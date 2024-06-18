@@ -13,7 +13,7 @@ const navbar = () => {
       <div className="navbar-right">
         <img src="/assets/search_icon.png" alt ="" />
         <div className="navbar-search-icon">
-          <img src="/assets/basket_icon.png" alt="basket icon"></img>
+          <img src="basket_icon.png" alt="basket icon"></img>
           <div className="dot"></div>
         </div>
       </div>
