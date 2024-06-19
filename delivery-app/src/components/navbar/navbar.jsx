@@ -9,6 +9,7 @@ const navbar = () => {
         <li>Menu</li>
         <li>Mobile App</li>
         <li>Contact Us</li>
+        <li>Credits</li>
       </ul>
       <div className="navbar-right">
         <img src="/assets/search_icon.png" alt ="" />
@@ -22,3 +23,5 @@ const navbar = () => {
 }
 
 export default navbar
+
+<div class="footer" id="credits-social"></div>
