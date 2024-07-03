@@ -1,3 +1,8 @@
-# Food Delivery App
+# Portfolio Website
 
-#### The files for the app are present in the delivery-app folder
+#### Technologies Used:
+
+1. HTML/CSS
+2. JAVASCRIPT
+3. BOOTSTRAP
+
