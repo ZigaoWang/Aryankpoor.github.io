@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 
 * {
   margin: 0;
@@ -148,4 +150,64 @@ section{
 .btn-box .btn:nth-of-type(2):hover{
   background-color: var(--background);
   color: white;
+}
+
+::-webkit-scrollbar{
+  width: 20px;
+  background-color: var(--background);
+}
+
+::-webkit-scrollbar-thumb{
+  background: linear-gradient(to bottom, #6cff52, #3ec5ff);
+}
+
+
+/*Custom link */
+.para-link {
+  color: #a7ff83;
+  font-family: 'nunito';
+}
+
+#about {
+  background-color: var(--second-background);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5em;
+}
+
+#about img{
+  width: 30vw;
+  border-radius: 1em;
+}
+
+.about-box{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 2em;
+}
+
+.about-box h1{
+  font-size: 5em;
+}
+
+.about-box p{
+  color: white;
+  opacity: 0.8;
+}
+
+.skills{
+  display: flex;
+  text-align: left;
+  gap: 10em;
+}
+
+.skills ul{
+  font-size: 1.3em;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  opacity: 0.8;
 }
