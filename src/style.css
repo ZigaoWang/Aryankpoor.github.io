@@ -21,6 +21,7 @@ body{
 }
 
 nav{
+  position: fixed;
   top: 0;
   width: 100%;
   padding: 2em 15%;
@@ -84,7 +85,7 @@ nav ul a:hover{
 }
 
 span{
-  background: linear-gradient(225deg, #a6d954 0, #8ad454 16.67%, #65ca50 33.33%, #27bb49 50%, #00ac45 66.67%, #00a049 83.33%, #009952 100%);
+  color: linear-gradient(180deg, #b4f2a0 0, #a1ec9c 16.67%, #89e397 33.33%, #6cd890 50%, #49cd8a 66.67%, #10c488 83.33%, #00bd88 100%);
   background-clip: text;
   color: transparent;
   font-family: 'NUNITO', sans-serif;
@@ -148,7 +149,7 @@ section{
 }
 
 .btn-box .btn:nth-of-type(2):hover{
-  background-color: var(--background);
+  background-color: linear-gradient(180deg, #b4f2a0 0, #a1ec9c 16.67%, #89e397 33.33%, #6cd890 50%, #49cd8a 66.67%, #10c488 83.33%, #00bd88 100%);
   color: white;
 }
 
@@ -169,7 +170,7 @@ section{
 }
 
 #about {
-  background-color: var(--second-background);
+  background-color: linear-gradient(180deg, #b4f2a0 0, #a1ec9c 16.67%, #89e397 33.33%, #6cd890 50%, #49cd8a 66.67%, #10c488 83.33%, #00bd88 100%);;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -195,6 +196,7 @@ section{
 .about-box p{
   color: white;
   opacity: 0.8;
+  font-size: 1.08em;
 }
 
 .skills{
@@ -204,10 +206,27 @@ section{
 }
 
 .skills ul{
-  font-size: 1.3em;
   font-weight: 500;
   display: flex;
   flex-direction: column;
   color: white;
   opacity: 0.8;
+  align-items: baseline;
+}
+
+.skills ul li span{
+  display: flex;
+  gap: 0.5em;
+  font-size: 1.2em;
+  align-items: center;
+  transition: 0.3s ease-in-out;
+}
+
+.skills ul li span:hover{
+  transform: translateX(10px);
+}
+
+
+.about-box h2{
+  font-size: 2.5em;
 }
