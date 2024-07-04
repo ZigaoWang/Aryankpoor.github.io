@@ -299,6 +299,12 @@ form .input-box{
   gap: 1em;
 }
 
+form textarea{
+  font-size: 1.3em;
+  padding: 1em 5em;
+  border-radius: 0.5em;
+}
+
 .input-box span{
   font-size: 1.5em;
 }
