@@ -60,6 +60,7 @@ nav ul a:hover{
   font-weight: 800;
   opacity: 0.8;
   transition: 0.2s ease-in-out;
+  color: var(--background);
 }
 
 .logo:hover{
@@ -85,7 +86,7 @@ nav ul a:hover{
 }
 
 span{
-  color: linear-gradient(180deg, #b4f2a0 0, #a1ec9c 16.67%, #89e397 33.33%, #6cd890 50%, #49cd8a 66.67%, #10c488 83.33%, #00bd88 100%);
+  background: linear-gradient(to bottom, #6cff52, #3ec5ff);
   background-clip: text;
   color: transparent;
   font-family: 'NUNITO', sans-serif;
@@ -149,7 +150,7 @@ section{
 }
 
 .btn-box .btn:nth-of-type(2):hover{
-  background-color: linear-gradient(180deg, #b4f2a0 0, #a1ec9c 16.67%, #89e397 33.33%, #6cd890 50%, #49cd8a 66.67%, #10c488 83.33%, #00bd88 100%);
+  background: linear-gradient(to bottom, #6cff52, #3ec5ff);
   color: white;
 }
 
@@ -170,7 +171,7 @@ section{
 }
 
 #about {
-  background-color: linear-gradient(180deg, #b4f2a0 0, #a1ec9c 16.67%, #89e397 33.33%, #6cd890 50%, #49cd8a 66.67%, #10c488 83.33%, #00bd88 100%);;
+  background-color: linear-gradient(to bottom, #6cff52, #3ec5ff);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -229,4 +230,153 @@ section{
 
 .about-box h2{
   font-size: 2.5em;
+}
+
+#services {
+  background-color: var(--background);
+}
+
+.header {
+  text-align: center;
+  font-size: 5em;
+  margin: 0.5em 0;
+}
+
+.services-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(250px, 1fr));
+  gap: 2em;
+}
+
+.box{
+  border: 3px solid rgb(49, 49, 49);
+  border-radius: 0.5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+  object-fit: cover;
+  padding: 3em;
+  gap: 2em;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.box:hover{
+  border: 3px solid rgb(100, 100, 100)
+}
+
+.box p{
+  opacity: 0.8;
+}
+
+.box h1{
+  font-size: 2em;
+}
+
+.box img{
+  min-width: 25px;
+  border-radius: 0.5em;  
+}
+
+#contact {
+  background-color: var(--second-background);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2em;
+}
+
+form .input-box{
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  gap: 1em;
+}
+
+.input-box span{
+  font-size: 1.5em;
+}
+
+form input {
+  font-size: 1.3em;
+  padding: 1em 5em;
+  border-radius: 0.5em;
+}
+
+form input:focus{
+  background: rgb(229, 229, 228);
+  color: black;
+}
+
+footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10em;
+  bottom: 0;
+  background-color: var(--background);
+  width: 100%;
+  padding: 5em 15%;
+}
+.col-left{
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.col-box{
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  font-size: 1em;
+}
+
+.col-box i{
+  font-size: 2em;
+}
+
+.col-box span{
+  font-size: 1.2em;
+}
+
+col-right {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  color: white;
+  max-width: 500px;
+}
+
+.col-right span{
+  font-size: 1.3em;
+}
+.col-right .social-icons{
+  display: flex;
+  align-items: baseline;
+  justify-content: left;
+  gap: 1em;
+}
+
+.col-right .social-icons i{
+  font-size: 2em;
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.social-icons i:hover{
+  color: white;
+}
+
+@media(max-width:968px){
+
+}
+
+@media(max-width:768px){
+  
 }
