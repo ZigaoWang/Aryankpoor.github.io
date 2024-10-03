@@ -1,8 +1,3 @@
 # Portfolio Website
 
-#### Technologies Used:
-
-1. HTML/CSS
-2. JAVASCRIPT
-3. BOOTSTRAP
-
+Requires a lot of changes. Thinking of adding shadcn ui components and shifting to react from static html/css/js
