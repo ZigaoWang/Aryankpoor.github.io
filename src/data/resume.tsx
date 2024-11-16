@@ -275,7 +275,7 @@ export const DATA = {
           href: "https://hacktoberfest.digitalocean.com/",
         },
         {
-          title: "Recap",
+          title: "Digitalocean",
           icon: <Icons.globe className="h-4 w-4" />,
           href: "https://www.digitalocean.com/blog/hactoberfest-2024-how-to-participate",
         },
@@ -331,11 +331,6 @@ export const DATA = {
           href: "https://order-trackerr.netlify.app/",
         },
         {
-          title: "Recap",
-          icon: <Icons.globe className="h-4 w-4" />,
-          href: "https://www.digitalocean.com/blog/hacktoberfest-recap2020",
-        },
-        {
           title: "YouTube",
           icon: <Icons.youtube className="h-4 w-4" />,
           href: "https://www.youtube.com/watch?v=0KB0PQ8qzks",
@@ -367,7 +362,7 @@ export const DATA = {
         {
           title: "Recap",
           icon: <Icons.globe className="h-4 w-4" />,
-          href: "https://www.digitalocean.com/blog/hacktoberfest-recap2020",
+          href: "https://www.digitalocean.com/blog/hacktoberfest-2022-your-mission-for-open-source",
         },
         {
           title: "YouTube",
@@ -388,7 +383,7 @@ export const DATA = {
         {
           title: "Recap",
           icon: <Icons.globe className="h-4 w-4" />,
-          href: "https://www.digitalocean.com/blog/hacktoberfest-recap2020",
+          href: "https://www.digitalocean.com/blog/hacktoberfest-2021-recap",
         },
         {
           title: "YouTube",
@@ -428,23 +423,7 @@ export const DATA = {
         win: "Swag | Sticker pack by github + Tee",
       image:
         "https://i.ibb.co/J28Q6JJ/amity.jpg",
-      links: [
-        {
-          title: "Devpost",
-          icon: <Icons.globe className="h-4 w-4" />,
-          href: "https://devpost.com/software/pocketdoc-react-native",
-        },
-        {
-          title: "YouTube",
-          icon: <Icons.youtube className="h-4 w-4" />,
-          href: "https://www.youtube.com/watch?v=XwFdn5Rmx68",
-        },
-        {
-          title: "Source",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/dillionverma/pocketdoc-react-native",
-        },
-      ],
+      links: [],
     },
   ],
 } as const;
