@@ -83,7 +83,7 @@ export const DATA = {
 
   work: [
     {
-      company: "Hack Club Bank",
+      company: "Hack Club HCB",
       href: "https://hackclub.com/hcb",
       badges: [],
       location: "Remote",
@@ -118,7 +118,7 @@ export const DATA = {
       end: "2028",
     },
     {
-      school: "Amity International School",
+      school: "Amity Online School",
       href: "https://www.amity.edu/",
       degree: "High School",
       logoUrl: "https://i.ibb.co/J28Q6JJ/amity.jpg",
@@ -261,7 +261,7 @@ export const DATA = {
     {
       title: "Hacktoberfest 2024",
       dates: "0ctober 1st - 31st, 2024",
-      location: "International",
+      location: "Online",
       description:
         "Contributed to open source projects",
       image:
@@ -313,7 +313,7 @@ export const DATA = {
     {
       title: "Hacktoberfest 2023",
       dates: "0ctober 1st - 31st, 2023",
-      location: "International",
+      location: "Online",
       description:
         "Contributed to open source projects",
       image:
@@ -341,7 +341,7 @@ export const DATA = {
     {
       title: "Hacktoberfest 2022",
       dates: "0ctober 1st - 31st, 2022",
-      location: "International",
+      location: "Online",
       win: "Swag | Sticker pack by github + Tee",
       description:
         "Contributed to open-source projects",
@@ -374,7 +374,7 @@ export const DATA = {
     {
       title: "Hacktoberfest 2021",
       dates: "October 1st - 31st, 2021",
-      location: "International",
+      location: "Online",
       description: "Contributed to open source projects",
       image:
         "https://i.ibb.co/SdvvZ44/hacktoberfest.jpg",
@@ -395,7 +395,7 @@ export const DATA = {
     {
       title: "Hacktoberfest 2020",
       dates: "October 1st - 31st, 2020",
-      location: "International",
+      location: "Online",
       description: "Contributed to open source projects",
       image:
         "https://i.ibb.co/SdvvZ44/hacktoberfest.jpg",
