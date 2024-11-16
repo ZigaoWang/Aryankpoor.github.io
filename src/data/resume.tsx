@@ -1,5 +1,4 @@
 import { Icons } from "@/components/icons";
-import { video } from "framer-motion/client";
 import { HomeIcon, NotebookIcon } from "lucide-react";
 
 export const DATA = {
