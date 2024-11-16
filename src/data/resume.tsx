@@ -87,7 +87,7 @@ export const DATA = {
       href: "https://hackclub.com/hcb",
       badges: [],
       location: "Remote",
-      title: "Operations",
+      title: "Junior Onboarder",
       logoUrl: "/hcb-light.svg",
       start: "Sept 2024",
       end: "Now",
