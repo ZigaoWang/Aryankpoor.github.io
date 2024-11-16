@@ -178,7 +178,7 @@ export const DATA = {
       dates: "June 2024 - August 2024",
       active: true,
       description:
-        "",
+        "A Chat-GPT like AI assistant website made using Gemini API and react",
       technologies: [
         "React",
         "Dotenv",
