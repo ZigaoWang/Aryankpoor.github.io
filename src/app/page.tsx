@@ -206,13 +206,7 @@ export default function Page() {
                 Get in Touch
               </h2>
               <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                Want to chat? Just shoot me a dm{" "}
-                <Link
-                  href={DATA.contact.social.X.url}
-                  className="text-blue-500 hover:underline"
-                >
-                  with a direct question on linkedIn
-                </Link>{"https://www.linkedin.com/in/aryan-kapoor-4b0894207/"}
+                Want to chat? Just shoot me a <Link href="https://www.linkedin.com/in/aryan-kapoor-4b0894207/" className="text-blue-500 hover:underline">DM </Link>
                 and I&apos;ll respond whenever I can.
               </p>
             </div>
