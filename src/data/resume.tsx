@@ -92,7 +92,7 @@ export const DATA = {
       start: "Sept 2024",
       end: "Now",
       description:
-        "Helped organizations get onboarded to Hack Club Bank and help them with their financial needs. Also handled other financial areas. ",
+        "Helped organizations get onboarded to HCB platform and help them with their financial needs. Also handled other financial areas. ",
     },
     {
       company: "Hack Club",
