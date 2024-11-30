@@ -118,7 +118,7 @@ export const DATA = {
       end: "2028",
     },
     {
-      school: "Amity Online School",
+      school: "Amity International School",
       href: "https://www.amity.edu/",
       degree: "High School",
       logoUrl: "https://i.ibb.co/J28Q6JJ/amity.jpg",
