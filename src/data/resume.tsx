@@ -8,9 +8,9 @@ export const DATA = {
   location: "Shanghai, China",
   locationLink: "https://maps.app.goo.gl/shanghai",
   description:
-    "A passionate student developer and tech enthusiast from China, currently working on iOS development and AI projects",
+    "A passionate student developer and tech enthusiast from China",
   summary:
-    "I'm a high school student at YK Pao School with a strong interest in programming and technology. I founded Pacer Club and am actively involved in FTC robotics competitions. Currently working on Zap iOS App and various AI projects. I enjoy working with SwiftUI, Python, and web technologies.",
+    "I'm a middle school student at YK Pao School with a strong interest in programming and technology. Currently working on iOS development and AI projects, I enjoy building tools that make a difference.",
   avatarUrl: "https://img.zigao.wang/zigao.webp",
   skills: [
     "Swift",
@@ -83,6 +83,18 @@ export const DATA = {
 
   work: [
     {
+      company: "FTC Team 23687 Pi",
+      href: "https://github.com/23687pi",
+      badges: ["Robotics"],
+      location: "Shanghai, China",
+      title: "Team Member",
+      start: "2022",
+      end: "2023",
+      description:
+        "Former member of FTC robotics team Pi, participated in competitions and robot development.",
+      logoUrl: "/ftc-23687-logo.svg"
+    },
+    {
       company: "Pacer Club",
       href: "https://pacer.org.cn",
       badges: ["Founder"],
@@ -96,7 +108,7 @@ export const DATA = {
     },
     {
       company: "FTC Team 21959 Dreamers",
-      href: "",
+      href: "https://21959.com.cn",
       badges: ["Robotics"],
       location: "Shanghai, China",
       title: "Team Member",
@@ -105,29 +117,18 @@ export const DATA = {
       description:
         "Active member of FTC robotics team, contributing to robot design and programming.",
       logoUrl: "/ftc-21959-logo.svg"
-    },
-    {
-      company: "FTC Team 23687 Pi",
-      href: "",
-      badges: ["Robotics"],
-      location: "Shanghai, China",
-      title: "Team Member",
-      start: "2022",
-      end: "2023",
-      description:
-        "Former member of FTC robotics team Pi, participated in competitions and robot development.",
-      logoUrl: "/ftc-23687-logo.svg"
     }
   ],
 
   education: [
     {
       school: "YK Pao School",
-      degree: "High School",
+      degree: "Middle School",
       field: "Science and Technology",
-      start: "2021",
+      start: "2023",
       end: "Present",
       location: "Shanghai, China",
+      href: "https://www.ykpaoschool.cn",
       description: "Member of the robotics team, focusing on computer science and technology projects.",
       logoUrl: "/ykpao-logo.svg"
     }
