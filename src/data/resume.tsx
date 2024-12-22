@@ -2,80 +2,80 @@ import { Icons } from "@/components/icons";
 import { HomeIcon, NotebookIcon } from "lucide-react";
 
 export const DATA = {
-  name: "Aryan Kapoor",
-  initials: "AK",
-  url: "https://www.aryankap.com",
-  location: "India",
-  locationLink: "https://maps.app.goo.gl/cNqeNrNybD93k8Uv9",
+  name: "Zigao Wang",
+  initials: "ZW",
+  url: "https://zigao.wang",
+  location: "Shanghai, China",
+  locationLink: "https://maps.app.goo.gl/shanghai",
   description:
-    "College freshman from India who loves integrating and automating things. Currently working at Hack Club",
+    "A passionate student developer and tech enthusiast from China, currently working on iOS development and AI projects",
   summary:
-    "My journey started 7 years ago, when I started learning basic html and css. I have learned a lot of things and met a lot of cool people in my time in the developer world. I am [currently pursuing Computer Science as my major in college](#education). In the past, I worked on an AI-assistant website called [Metamorpheus](https://metamorpheus.vercel.app) and I am currently working on a financial-resources web app called [Welp](https://welp-wiki.vercel.app) which allows you to create invoices and integrate your business all in one place.",
-  avatarUrl: "/image.jpg",
+    "I'm a high school student at YK Pao School with a strong interest in programming and technology. I founded Pacer Club and am actively involved in FTC robotics competitions. Currently working on Zap iOS App and various AI projects. I enjoy working with SwiftUI, Python, and web technologies.",
+  avatarUrl: "https://img.zigao.wang/zigao.webp",
   skills: [
+    "Swift",
+    "SwiftUI",
+    "Python",
+    "JavaScript",
+    "TypeScript",
     "React",
     "Next.js",
-    "Typescript",
-    "Node.js",
-    "Javascript",
     "HTML",
     "CSS",
-    "Software Development",
-    "Web Development",
-    "Problem Solving",
-    "Python",
+    "C++",
+    "Node.js",
+    "PHP",
     "Git",
-    "Github",
-    "Material UI",
-    "Electronics",
-    "PCB",
-    "Raspberry PI",
-    "Automations",
-    "Airtable",
-    "TailwindCSS",
-    "SCSS",
-    
+    "Arduino",
+    "Blender",
+    "Bootstrap",
+    "Figma",
+    "Hexo"
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
     { href: "/blog", icon: NotebookIcon, label: "Blog" },
   ],
   contact: {
-    email: "aryan@hackclub.com",
-    tel: "+123456789",
+    title: "Get in Touch",
+    description: "Feel free to reach out to me via email at a@zigao.wang. I'll get back to you as soon as I can!",
+    email: "a@zigao.wang",
+    tel: "",
     social: {
       GitHub: {
         name: "GitHub",
-        url: "https://github.com/Aryankpoor",
+        url: "https://github.com/ZigaoWang",
         icon: Icons.github,
-
         navbar: true,
       },
-      LinkedIn: {
-        name: "LinkedIn",
-        url: "https://www.linkedin.com/in/aryan-kapoor-4b0894207/",
-        icon: Icons.linkedin,
-
+      Twitter: {
+        name: "Twitter",
+        url: "https://twitter.com/zigaow",
+        icon: Icons.twitter,
         navbar: true,
       },
-      X: {
-        name: "X",
-        url: "",
-        icon: Icons.x,
-
-        navbar: false,
-      },
-      Codepen: {
-        name: "Codepen",
-        url: "",
+      YouTube: {
+        name: "YouTube",
+        url: "https://www.youtube.com/@zigaow",
         icon: Icons.youtube,
-        navbar: false,
+        navbar: true,
+      },
+      StackOverflow: {
+        name: "Stack Overflow",
+        url: "https://stackoverflow.com/users/22656679",
+        icon: Icons.stackoverflow,
+        navbar: true,
+      },
+      Blog: {
+        name: "Blog",
+        url: "https://zigao.cc",
+        icon: Icons.globe,
+        navbar: true,
       },
       email: {
         name: "Send Email",
-        url: "mailto:aryan@hackclub.com",
+        url: "mailto:a@zigao.wang",
         icon: Icons.email,
-
         navbar: true,
       },
     },
@@ -83,347 +83,139 @@ export const DATA = {
 
   work: [
     {
-      company: "Hack Club HCB",
-      href: "https://hackclub.com/hcb",
-      badges: [],
-      location: "Remote",
-      title: "Junior Onboarder",
-      logoUrl: "/hcb-light.svg",
-      start: "Sept 2024",
-      end: "Now",
+      company: "Pacer Club",
+      href: "https://pacer.org.cn",
+      badges: ["Founder"],
+      location: "China",
+      title: "Founder",
+      start: "2023",
+      end: "Present",
       description:
-        "Helped organizations get onboarded to HCB platform and help them with their financial needs. Also handled other financial areas. ",
+        "Founded and leading Pacer Club, developing innovative solutions and fostering a community of tech enthusiasts.",
+      logoUrl: "/pacer-logo.png"
     },
     {
-      company: "Hack Club",
-      badges: [],
-      href: "https://hackclub.com",
-      location: "Remote",
-      title: "Volunteer",
-      logoUrl: "/icon-progress-rounded.svg",
-      start: "July 2024",
-      end: "September 2024",
+      company: "FTC Team 21959 Dreamers",
+      href: "",
+      badges: ["Robotics"],
+      location: "Shanghai, China",
+      title: "Team Member",
+      start: "2023",
+      end: "Present",
       description:
-        "Created various Airtable automations that integrated with slack and created workflows which connected airtable databases to slack. Also Reviewed the Amazing projects and submissions made by participants of Arcade organised by Hack Club and was part of the Fraud Investigation team.",
+        "Active member of FTC robotics team, contributing to robot design and programming.",
+      logoUrl: "/ftc-21959-logo.svg"
     },
-    
+    {
+      company: "FTC Team 23687 Pi",
+      href: "",
+      badges: ["Robotics"],
+      location: "Shanghai, China",
+      title: "Team Member",
+      start: "2022",
+      end: "2023",
+      description:
+        "Former member of FTC robotics team Pi, participated in competitions and robot development.",
+      logoUrl: "/ftc-23687-logo.svg"
+    }
   ],
+
   education: [
     {
-      school: "Vellore Institute of Technology",
-      href: "https://vit.ac.in/",
-      degree: "B.tech in Computer Science and Engineering",
-      logoUrl: "/vit.png",
-      start: "2024",
-      end: "2028",
-    },
-    {
-      school: "Amity International School",
-      href: "https://www.amity.edu/",
+      school: "YK Pao School",
       degree: "High School",
-      logoUrl: "https://i.ibb.co/J28Q6JJ/amity.jpg",
-      start: "2024",
-      end: "2020",
-    },
-    {
-      school: "Apeejay School",
-      href: "https://uwaterloo.ca",
-      degree: "Primary-Middle School",
-      logoUrl: "https://i.ibb.co/GxN4SXB/apj.jpg",
-      start: "2020",
-      end: "2010",
+      field: "Science and Technology",
+      start: "2021",
+      end: "Present",
+      location: "Shanghai, China",
+      description: "Member of the robotics team, focusing on computer science and technology projects.",
+      logoUrl: "/ykpao-logo.svg"
     }
-    
   ],
+
   projects: [
     {
-      title: "Welp",
-      href: "https://welp.it.com",
-      dates: "September 2024 - Present",
+      title: "Zap iOS App",
+      href: "https://github.com/ZapNotesApp/Zap",
+      dates: "2024",
+      description: "An innovative iOS note-taking application built with SwiftUI, focusing on user experience and productivity.",
       active: true,
-      description:
-        "A web application which allows users to create and send invoices from within the website with built-in email interface and manage their business with added payment capabilities.",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Clerk",
-        "TailwindCSS",
-        "Stripe",
-        "Shadcn UI",
-        "Neon",
-        "Firebase",
-        "Google Cloud Console",
-        "MagicUI",
-        "Vercel"
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://welp-wiki.vercel.app",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/Aryankpoor/welp",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "",
-      video: "https://cdn.magicui.design/bento-grid.mp4",
-    },
-    {
-      title: "MetaMorpheus",
-      href: "",
-      dates: "June 2024 - August 2024",
-      active: true,
-      description:
-        "A Chat-GPT like AI assistant website made using Gemini API and react",
-      technologies: [
-        "React",
-        "Dotenv",
-        "Vercel",
-        "Gemini",
-        "Vite",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://metamorpheus.vercel.app",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/Aryankpoor/metamorpheus",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "",
-      video: "https://cdn.llm.report/openai-demo.mp4",
-    },
-    {
-      title: "Screen Wrec",
-      href: "",
-      dates: "September 2024",
-      active: true,
-      description:
-        "A lightweight desktop screen recorder applications developed in electron.",
-      technologies: [
-        "Electron",
-        "Desktop",
-        "Javascript"
-      ],
+      technologies: ["Swift", "SwiftUI", "iOS Development"],
       links: [
         {
           type: "Source",
-          href: "https://github.com/Aryankpoor/screen-wrec",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "",
-      video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
-
-    },
-    {
-      title: "Ordel",  
-      href: "https://order-trackerr.netlify.app/",
-      dates: "April 2023 - March 2024 ",
-      active: true,
-      description:
-        "A shipping company and tracking website made entirely out of static HTML, CSS and JS.",
-      technologies: [
-        "HTML",
-        "CSS",
-        "JS",
-        "Github Pages",
-        "Bootstrap",
-        "Netlify"
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://order-trackerr.netlify.app/",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/Aryankpoor/ordel",
-          icon: <Icons.github className="size-3" />,
+          href: "https://github.com/ZapNotesApp/Zap",
+          icon: <Icons.github className="size-4" />
         }
       ],
       image: "",
-      video:"https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
-
+      video: ""
     },
+    {
+      title: "Claude Assistant",
+      href: "https://github.com/pacerclub/claude-assistant",
+      dates: "2023",
+      description: "AI assistant integration project developed under Pacer Club, leveraging Claude's capabilities.",
+      technologies: ["Python", "AI", "API Integration"],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/pacerclub/claude-assistant",
+          icon: <Icons.github className="size-4" />
+        }
+      ],
+      image: "",
+      video: ""
+    },
+    {
+      title: "DazTab",
+      href: "https://github.com/ZigaoWang/daztab",
+      dates: "2023",
+      description: "A modern browser tab enhancement project focusing on productivity and user experience.",
+      technologies: ["JavaScript", "Browser Extension", "UI/UX"],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/ZigaoWang/daztab",
+          icon: <Icons.github className="size-4" />
+        }
+      ],
+      image: "",
+      video: ""
+    },
+    {
+      title: "Cleo AI",
+      href: "https://github.com/pacerclub/cleoai",
+      dates: "2023",
+      description: "AI project developed at Pacer Club, focusing on natural language processing and user interaction.",
+      technologies: ["Python", "AI", "NLP"],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/pacerclub/cleoai",
+          icon: <Icons.github className="size-4" />
+        }
+      ],
+      image: "",
+      video: ""
+    }
   ],
+
+  funFacts: [
+    "I prefer tabs over spaces",
+    "I like pizzas with pineapple on it",
+    `I've been alive for 5003 days (as of Dec 22, 2024)`
+  ],
+
+  certifications: [],
   hackathons: [
     {
-      title: "Hacktoberfest 2024",
-      dates: "0ctober 1st - 31st, 2024",
-      location: "Online",
-      description:
-        "Contributed to open source projects",
-      image:
-        "https://i.ibb.co/SdvvZ44/hacktoberfest.jpg",
-     
-      links: [
-        
-        {
-          title: "Site",
-          icon: <Icons.globe className="h-4 w-4" />,
-          href: "https://hacktoberfest.digitalocean.com/",
-        },
-        {
-          title: "Digitalocean",
-          icon: <Icons.globe className="h-4 w-4" />,
-          href: "https://www.digitalocean.com/blog/hactoberfest-2024-how-to-participate",
-        },
-        {
-          title: "YouTube",
-          icon: <Icons.youtube className="h-4 w-4" />,
-          href: "https://www.youtube.com/watch?v=-T8ssjybfKo",
-        }
-      ],
-    },
-    {
-      title: "Code & Conquer",
-      dates: "September 16-18, 2024",
-      location: "Chennai, India",
-      description:
-        "Solved various competitive programming questions and CTFs.",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-western.png",
-      mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
-      links: [],
-    },
-    {
-      title: "BitWars",
-      dates: "September 14th - 16th, 2018",
-      location: "Chennai, India",
-      description:
-        "Solved various competitive programming problems and engaged in timed competitive programming battles with other teams.",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/eth-waterloo.png",
-     
-      links: [],
-    },
-    
-    
-    {
-      title: "Hacktoberfest 2023",
-      dates: "0ctober 1st - 31st, 2023",
-      location: "Online",
-      description:
-        "Contributed to open source projects",
-      image:
-        "https://i.ibb.co/SdvvZ44/hacktoberfest.jpg",
-     
-      links: [
-        {
-          title: "Source",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/Aryankpoor/Ordel",
-        },
-        {
-          title: "Site",
-          icon: <Icons.globe className="h-4 w-4" />,
-          href: "https://order-trackerr.netlify.app/",
-        },
-        {
-          title: "YouTube",
-          icon: <Icons.youtube className="h-4 w-4" />,
-          href: "https://www.youtube.com/watch?v=0KB0PQ8qzks",
-        }
-      ],
-    },
-    
-    {
-      title: "Hacktoberfest 2022",
-      dates: "0ctober 1st - 31st, 2022",
-      location: "Online",
-      win: "Swag | Sticker pack by github + Tee",
-      description:
-        "Contributed to open-source projects",
-      image:
-        "https://i.ibb.co/SdvvZ44/hacktoberfest.jpg",
-     
-      links: [
-        {
-          title: "Source",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/Aryankpoor/Ordel",
-        },
-        {
-          title: "Site",
-          icon: <Icons.globe className="h-4 w-4" />,
-          href: "https://order-trackerr.netlify.app/",
-        },
-        {
-          title: "Recap",
-          icon: <Icons.globe className="h-4 w-4" />,
-          href: "https://www.digitalocean.com/blog/hacktoberfest-2022-your-mission-for-open-source",
-        },
-        {
-          title: "YouTube",
-          icon: <Icons.youtube className="h-4 w-4" />,
-          href: "https://www.youtube.com/watch?v=vSdSFxIKy5w",
-        }
-      ],
-    },
-    {
-      title: "Hacktoberfest 2021",
-      dates: "October 1st - 31st, 2021",
-      location: "Online",
-      description: "Contributed to open source projects",
-      image:
-        "https://i.ibb.co/SdvvZ44/hacktoberfest.jpg",
-      win: "Swag | Sticker pack by github + Tee",
-      links: [
-        {
-          title: "Recap",
-          icon: <Icons.globe className="h-4 w-4" />,
-          href: "https://www.digitalocean.com/blog/hacktoberfest-2021-recap",
-        },
-        {
-          title: "YouTube",
-          icon: <Icons.youtube className="h-4 w-4" />,
-          href: "https://www.youtube.com/watch?v=vSdSFxIKy5w",
-        }
-      ],
-    },
-    {
-      title: "Hacktoberfest 2020",
-      dates: "October 1st - 31st, 2020",
-      location: "Online",
-      description: "Contributed to open source projects",
-      image:
-        "https://i.ibb.co/SdvvZ44/hacktoberfest.jpg",
-      win: "Swag | Sticker pack by github + Tee",
-      links: [
-        {
-          title: "Recap",
-          icon: <Icons.globe className="h-4 w-4" />,
-          href: "https://www.digitalocean.com/blog/hacktoberfest-recap2020",
-        },
-        {
-          title: "YouTube",
-          icon: <Icons.youtube className="h-4 w-4" />,
-          href: "https://www.youtube.com/watch?v=vSdSFxIKy5w",
-        }
-      ],
-    },
-   
-    {
-      title: "Corona Code Zone",
-      dates: "May 19th, 2020",
-      location: "Online",
-      description:
-        "Developed a healthcare management app in python, in view of the COVID-19 pandemic.",
-        win: "Swag | Sticker pack by github + Tee",
-      image:
-        "https://i.ibb.co/J28Q6JJ/amity.jpg",
-      links: [],
-    },
-  ],
+      title: "Hack Shanghai",
+      description: "Building innovative solutions for local communities at Shanghai's premier high school hackathon.",
+      location: "Shanghai, China",
+      dates: "2024",
+      image: "",
+      links: []
+    }
+  ]
 } as const;

@@ -164,12 +164,9 @@ export default function Page() {
                   I like building things
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  During my time in university, I attended{" "}
-                  {DATA.hackathons.length}+ hackathons. People from around the
-                  country would come together and build incredible things in 2-3
-                  days. It was eye-opening to see the endless possibilities
-                  brought to life by a group of motivated and passionate
-                  individuals.
+                  I'm passionate about participating in hackathons where I can collaborate with other talented developers
+                  and bring innovative ideas to life. These events provide an amazing opportunity to learn new technologies,
+                  solve real-world problems, and create impactful solutions in a short time frame.
                 </p>
               </div>
             </div>
@@ -199,16 +196,20 @@ export default function Page() {
         <div className="grid items-center justify-center gap-4 px-4 text-center md:px-6 w-full py-12">
           <BlurFade delay={BLUR_FADE_DELAY * 16}>
             <div className="space-y-3">
-              <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
-                Contact
-              </div>
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                Get in Touch
+              <h2 className="text-3xl font-bold tracking-tighter text-center sm:text-4xl md:text-5xl">
+                {DATA.contact.title}
               </h2>
-              <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                Want to chat? Just shoot me a <Link href="https://www.linkedin.com/in/aryan-kapoor-4b0894207/" className="text-blue-500 hover:underline">DM </Link>
-                and I&apos;ll respond whenever I can.
+              <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+                {DATA.contact.description}
               </p>
+              <div className="mx-auto w-full max-w-sm space-y-2">
+                <a
+                  className="flex h-10 w-full items-center justify-center rounded-md border border-input bg-background px-8 text-sm font-medium shadow-sm transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
+                  href={`mailto:${DATA.contact.email}`}
+                >
+                  Send Email
+                </a>
+              </div>
             </div>
           </BlurFade>
         </div>
