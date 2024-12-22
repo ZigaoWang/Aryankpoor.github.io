@@ -10,22 +10,19 @@ export const DATA = {
   description:
     "A passionate student developer and tech enthusiast from China",
   summary:
-    "I'm a middle school student at YK Pao School with a strong interest in programming and technology. Currently working on iOS development and AI projects, I enjoy building tools that make a difference.",
+    "I'm a middle school student with a strong interest in programming and technology. Currently working on iOS development and AI projects, I enjoy building tools that make a difference.",
   avatarUrl: "https://img.zigao.wang/zigao.webp",
   skills: [
     "Swift",
     "SwiftUI",
     "Python",
     "JavaScript",
-    "TypeScript",
-    "React",
     "Next.js",
     "HTML",
     "CSS",
     "C++",
     "Node.js",
     "PHP",
-    "Git",
     "Arduino",
     "Blender",
     "Bootstrap",
@@ -34,7 +31,7 @@ export const DATA = {
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
-    { href: "/blog", icon: NotebookIcon, label: "Blog" },
+    { href: "https://zigao.cc", icon: NotebookIcon, label: "Blog" },
   ],
   contact: {
     title: "Get in Touch",
@@ -54,24 +51,6 @@ export const DATA = {
         icon: Icons.twitter,
         navbar: true,
       },
-      YouTube: {
-        name: "YouTube",
-        url: "https://www.youtube.com/@zigaow",
-        icon: Icons.youtube,
-        navbar: true,
-      },
-      StackOverflow: {
-        name: "Stack Overflow",
-        url: "https://stackoverflow.com/users/22656679",
-        icon: Icons.stackoverflow,
-        navbar: true,
-      },
-      Blog: {
-        name: "Blog",
-        url: "https://zigao.cc",
-        icon: Icons.globe,
-        navbar: true,
-      },
       email: {
         name: "Send Email",
         url: "mailto:a@zigao.wang",
@@ -87,9 +66,9 @@ export const DATA = {
       href: "https://github.com/23687pi",
       badges: ["Robotics"],
       location: "Shanghai, China",
-      title: "Team Member",
-      start: "2022",
-      end: "2023",
+      title: "Team Captain",
+      start: "September 2023",
+      end: "May 2024",
       description:
         "Former member of FTC robotics team Pi, participated in competitions and robot development.",
       logoUrl: "/ftc-23687-logo.svg"
@@ -100,7 +79,7 @@ export const DATA = {
       badges: ["Founder"],
       location: "China",
       title: "Founder",
-      start: "2023",
+      start: "May 2024",
       end: "Present",
       description:
         "Founded and leading Pacer Club, developing innovative solutions and fostering a community of tech enthusiasts.",
@@ -111,26 +90,12 @@ export const DATA = {
       href: "https://21959.com.cn",
       badges: ["Robotics"],
       location: "Shanghai, China",
-      title: "Team Member",
-      start: "2023",
+      title: "Outreach Captain",
+      start: "September 2024",
       end: "Present",
       description:
-        "Active member of FTC robotics team, contributing to robot design and programming.",
+        "Outreach Captain of FTC robotics team, responsible for leading the outreach department and spreading STEM education.",
       logoUrl: "/ftc-21959-logo.svg"
-    }
-  ],
-
-  education: [
-    {
-      school: "YK Pao School",
-      degree: "Middle School",
-      field: "Science and Technology",
-      start: "2023",
-      end: "Present",
-      location: "Shanghai, China",
-      href: "https://www.ykpaoschool.cn",
-      description: "Member of the robotics team, focusing on computer science and technology projects.",
-      logoUrl: "/ykpao-logo.svg"
     }
   ],
 
